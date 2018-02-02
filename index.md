@@ -17,8 +17,6 @@ Location criteria don’t work in countries that don’t allow the use of the Go
 
 Let’s say you have a financial services community and you want your clients and your brokers to see a different Home page based on their profile. You can create two variations of the Home page, each with content targeting a specific audience—clients and brokers in this case—and set the visibility of each page to different profiles. All members go to the same URL, but your clients see Home A, whereas your brokers see Home B.
 
-![Image](src)
-
 # Who Exactly Sees What?
 After you create the page variations you need in Page Manager, you can set their visibility. Choose from three visibility options that, when combined with a page’s published status, determine whether a page is visible to your community members.
 
