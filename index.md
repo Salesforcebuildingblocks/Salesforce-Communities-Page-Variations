@@ -24,3 +24,5 @@ Default: All users unless set by profile
 When the page is published, it’s visible to all valid community members, except members whose profiles are assigned to a different page variation. Each page must have one default page variation.
 By Profile
 When the page is published, it’s visible only to users with the selected profiles.
+
+New Changes 2
