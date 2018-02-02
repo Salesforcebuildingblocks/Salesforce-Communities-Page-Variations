@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Page Variations
 
-You can use the [editor on GitHub](https://github.com/SalesforceStory/Page-Variations/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Page variations are alternative versions of a page. You can use them to try out different page layouts and styles, or create variations that are aimed at distinct audiences. Every page in your community, including custom pages, must have one default page variation. You can add as many extra variations as you need on the page’s Page Variations tab.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can also duplicate page variations, which really speeds things up when you’re creating page variations that have only minor differences.
 
-### Markdown
+Assigning specific audience criteria to a page variation lets you target a particular set of members. Criteria include:
+Profile
+Location
+Record type
+You can add multiple profiles to a variation if you like, or none.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Here are some considerations when setting location criteria:
+Location based on the user’s IP address, which could potentially be located in a neighboring city.
+The location permission is not on by default in Developer Edition orgs. Contact Salesforce if you want to use this feature in that edition.
+Location criteria don’t work in countries that don’t allow the use of the Google API.
 
-```markdown
-Syntax highlighted code block
+Let’s say you have a financial services community and you want your clients and your brokers to see a different Home page based on their profile. You can create two variations of the Home page, each with content targeting a specific audience—clients and brokers in this case—and set the visibility of each page to different profiles. All members go to the same URL, but your clients see Home A, whereas your brokers see Home B.
 
-# Header 1
-## Header 2
-### Header 3
+![Image](src)
 
-- Bulleted
-- List
+# Who Exactly Sees What?
+After you create the page variations you need in Page Manager, you can set their visibility. Choose from three visibility options that, when combined with a page’s published status, determine whether a page is visible to your community members.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SalesforceStory/Page-Variations/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Default: All users unless set by profile
+When the page is published, it’s visible to all valid community members, except members whose profiles are assigned to a different page variation. Each page must have one default page variation.
+By Profile
+When the page is published, it’s visible only to users with the selected profiles.
